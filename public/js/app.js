@@ -1,15 +1,3 @@
-console.log('Client side javascript is loaded!')
-
-/* fetch('http://localhost:3000/weather?address=winterthur').then((response) => {
-    response.json().then((data) => {
-        if (data.error) {
-            return console.log(data.error)
-        }
-        console.log(data.location)
-        console.log(data.forecast)
-    })
-}) */
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const messageOne = document.querySelector('#message-1')
